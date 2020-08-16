@@ -2,8 +2,9 @@
     <div class="container">
         <a href="/">
             <div class="logo">
-                <h1>Launchstore</h1>
-                <h2>COMPRA E VENDA</h2>
+                <img src="/assets/viking-icon.png" alt="">
+                <h1>NordCar</h1>
+                <h2>LOCAÇÃO DE CARROS</h2>
             </div>
         </a>
 
@@ -11,7 +12,7 @@
             <input 
                 type="text" 
                 name="filter"
-                placeholder="Buscar por Produtos"
+                placeholder="Buscar por carros"
                 {% if search.term %}
                     value={{search.term}}
                 {%endif%}
@@ -22,7 +23,7 @@
         <nav class="primary">
             <ul>
                 <li>
-                    <a href="/ads/create"><i class="material-icons">add</i>Novo Anúncio</a>
+                    <a href="/ads/create"><i class="material-icons">add</i>Novo Pedido</a>
                 </li>
                 <li>
                     <a href="/accounts"><i class="material-icons">account_circle</i>Minha Conta</a>
